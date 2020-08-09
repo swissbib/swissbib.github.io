@@ -1,2 +1,7 @@
+baseURL: https://guenterh.github.io/datablog/
+
 enableRobotsTXT: true
 minify: true
+
+publishDir: docs
+relativeURLs: false
