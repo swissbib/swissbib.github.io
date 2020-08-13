@@ -1,5 +1,5 @@
 ---
-title: "Ensemblemethods"
+title: "A Machine Learning Approach with Ensemble Methods for Deduplication of Swissbib Data"
 date: 2020-08-01T13:48:19+02:00
 draft: true
 ---
@@ -23,7 +23,7 @@ figure 1, records pairing
 
  The idea behind a Decision Tree algorithm is that the computer system learns a set of sequential  if-then-else rules that lead to a final decision. Each if-then-else statement is called a node of the Decision Tree. The nodes are arranged in sequences to form of a binary tree, see figure 3, which is the reason for its naming. In the swissbib project, the set of if-then-else rules is a sequence of thresholds for binary statements of one feature variable that can either be lower or higher than the specific threshold. To classify a feature record, the algorithm starts at the top of the tree and evaluates he statement in each node on its path down. Depending on the threshold value, the algorithm decides for the right-lower or the left-lower node as the next node until reaching the bottom of the tree. The final decision is called a leaf of the Decision Tree. The leaf concludes the decision wether the feature record is a pair of uniques or a pair of duplicates. During training a Decision Tree, the if-then-else rules of the nodes are adjusted iteratively until the Decision Tree predicts the target value of the training data feature rows with the highest possible probability according to a function to measure the quality of decisions, called criterion. When this highest power of prediction on the training data is reached, the Decision Tree can be used for predicting new, unseen data.
 
-  <a href="https://www.swissbib.ch" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/decision_tree_cv_manual.png"/></a>
+  <a href="/image/decision_tree_cv_manual.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/decision_tree_cv_manual.svg"/></a>
   -------
   figure 3, graphical representation of decision tree
   ------
