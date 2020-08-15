@@ -1,0 +1,3 @@
+[submodule "themes/hia"]
+	path = themes/hia
+	url = https://github.com/hugoinaction/Eclectic.git

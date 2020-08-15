@@ -12,7 +12,7 @@ In the project described, a Support Vector Machine is trained with the help of s
 
 A Support Vector Machine predicts the belonging of a data point to a class according to a probability value in the range of the interval from 0 to 1. The threshold value of 0.5 is the separator between the two classes. If the Support Vector Machine calculates a probability value in the interval from 0 to 0.5, then the classifier model assigns the feature record to the class of pairs of uniques. If the classifier model calculates a probability value in the interval from 0.5 to 1, then the machine assigns the feature record to the class of pairs of duplicates. Figure 1 shows the distribution of the records for some part of swissbib training data. The green line in the figure represents the threshold of 0.5, separating the data into its two classes.
 
-<a href="/image/svc_probability.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/svc_probability.svg"/></a>
+<a href="/image/svc_probability.opt.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/svc_probability.opt.svg"/></a>
 -----
 Figure 1. Probability distribution of swissbib training data
 ------
