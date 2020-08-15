@@ -1,0 +1,37 @@
+{{define "bodyClass"}}home{{end}}
+{{define "header"}}
+
+
+
+{{end}}
+
+{{define "body"}}
+{{$title:= default .Site.Title .Page.Title}}
+<section>
+  {{ $hero := resources.GetMatch "image/hero.*" }}
+  {{ $hero = $hero.Resize "2000x jpg q80 #000000" | images.Filter (images.Contrast 40) (images.Brightness 10) }}
+  {{ $small := $hero.Fill "375x406 top left"}}
+  <main>
+    {{ $logo := resources.GetMatch "image/logo.svg.tpl" | resources.ExecuteAsTemplate "logo.svg" . }}
+    <img src="{{$logo.Permalink}}" width="60px">
+    {{with $title}}<h1 class="intro">{{.}}</h1>{{end}}
+    {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
+    {{.Content}}
+    {{ partialCached "menu.html" (dict "Menu" $.Site.Menus.main  "RenderSubmenus" false) "main" "false"}}
+  </main>
+</section>
+<section >
+  {{/* Recent Blog Posts */}}
+  <article>
+    <h1> Recent Blog Posts</h1>
+    <div class="posts">
+      {{ range first 3 (where (where $.Site.RegularPages ".Section" "blog" ) ".Draft" false)}}
+      <div class="post">
+        <a href="{{.Permalink}}">{{default (.File.ContentBaseName | humanize | title) .Title}}</a>
+        <summary>{{.Summary}}</summary>
+      </div>
+      {{end}}
+    </div>
+  </article>
+</section>
+{{ end }}

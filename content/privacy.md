@@ -1,3 +1,10 @@
+---
+menu:
+  footer:
+    name: Privacy Policy
+    weight: 3
+type: acme
+---
 Privacy Policy
 ==============
 
