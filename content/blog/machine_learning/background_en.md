@@ -1,6 +1,7 @@
 ---
-title: "Background_en"
-date: 2020-07-25T15:50:09+02:00
+title: "Why machine learning in the swissbib project"
+description: "Why machine learning"
+date: 2020-07-18T15:50:09+02:00
 draft: false
 
 tags:
@@ -10,7 +11,6 @@ categories:
 
 ---
 
-# Years of experience in the preparation and processing of metadata meets methods of Machine Learning  
 
  For what feels like two or three years now, it has been almost impossible to find articles on the subject of data and information in which terms such as "Machine Learning", "Artificial Intelligence" (AI) or "Neural Networks" are not mentioned at least once and described as the recipe for success for the future. Should this mean that what we have been doing over the last 12 years is outdated and no longer relevant? The swissbib team is not known to shy away from new software technologies. We have always thought outside the box to see if new methods can be combined with our classic methods. The problem with this is that before you can choose, try out and perhaps productively use something promising from the multitude of possible options, you first have to fight your way through the basics and terminology of the new topic. Not so easy for a swissbib team that is not lavishly staffed with people and has to keep the shop (i.e. the "green, orange or whatever colored services") running.
 
@@ -31,9 +31,10 @@ Machine learning is based on data. Data from swissbib is therefore the foundatio
 We would be pleased if you follow our blog series on the topic of deduplication of bibliographic data using machine learning methods. We are even more pleased about the active participation in and discussion of the topic.
 Under these links you can access the individual parts of the three-part blog series, in which the different methods and their results are evaluated and compared.
 
-[Part 1](/ensemblemethods)  
-Part 2 (coming soon)  
-Part 3 (coming soon)  
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
+[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)  
+Part 3: coming soon
 
 
 A closing anecdote. While defending the project at the EPFL, Andreas sat across from examiners who said that he had worked with a "great data set". Of course, we were pleased about that, too. But perhaps this is also a sentence that makes you think about whether our data didn't deserve more than just being put into a library system with a relational database system.

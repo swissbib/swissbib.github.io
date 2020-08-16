@@ -24,7 +24,8 @@
     <div class="posts">
       {{ range first 6 (where (where $.Site.RegularPages ".Section" "blog" ) ".Draft" false)}}
       <div class="post">
-        <a href="{{.Permalink}}">{{default (.File.ContentBaseName | humanize | title) .Title}}</a>
+        {{ $shorttitle := substr .Title 0 20}}
+        <a href="{{.Permalink}}">{{default (.File.ContentBaseName | humanize )  .Description }}</a>
         <summary>{{.Summary}}</summary>
       </div>
       {{end}}

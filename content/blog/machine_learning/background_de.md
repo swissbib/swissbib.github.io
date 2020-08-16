@@ -1,6 +1,7 @@
 ---
-title: "Background_de"
-date: 2020-07-25T15:50:09+02:00
+title: "Warum maschinelles Lernen im swissbib Projekt"
+description: "Warum maschinelles Lernen"
+date: 2020-07-18T15:50:09+02:00
 draft: false
 
 tags:
@@ -11,9 +12,8 @@ categories:
 ---
 
 
-# Jahrelange Erfahrung in der Aufbereitung und Verarbeitung von Metadaten trifft auf Maschinelles Lernen
 
-Seit gefühlt zwei, drei Jahren lassen sich kaum mehr Artikel zum Thema Daten und Informationen finden, in denen nicht mindestens einmal Begriffe wie "Maschinelles Lernen", "Künstliche Intelligenz" (KI) oder "Neuronale Netze" erwähnt und als das Erfolgsrezept für die Zukunft beschrieben werden. Sollte damit das, was wir in den letzten 12 Jahren gemacht haben, veraltet und nicht mehr relevant sein? Das swissbib Team ist ja nicht dafür bekannt, sich vor neuen Softwaretechnologien zu scheuen. Wir schauen schon seit je her regelmässig über den Tellerrand um mitzubekommen, ob sich neue Methoden nicht mit unseren klassischen Methoden verbinden lassen. Das Problem dabei: Bevor man aus der Menge des Möglichen etwas Vielversprechendes wählen, ausprobieren und dann vielleicht produktiv einsetzen kann, muss man sich erstmal durch die Grundlagen und Begrifflichkeiten des neuen Themengebiets kämpfen. Nicht so einfach für ein swissbib Team, dass mit Personen nicht üppig ausgestattet ist und den Laden (sprich die "grünen, orangenen oder wie auch immer farbigen Services") am Laufen halten muss.
+Seit gefühlt zwei, drei Jahren lassen sich kaum mehr Artikel zum Thema Daten und Informationen finden, in denen nicht mindestens einmal  Begriffe wie "Maschinelles Lernen", "Künstliche Intelligenz" (KI) oder "Neuronale Netze" erwähnt und als das Erfolgsrezept für die Zukunft beschrieben werden. Sollte damit das, was wir in den letzten 12 Jahren gemacht haben, veraltet und nicht mehr relevant sein? Das swissbib Team ist ja nicht dafür bekannt, sich vor neuen Softwaretechnologien zu scheuen. Wir schauen schon seit je her regelmässig über den Tellerrand um mitzubekommen, ob sich neue Methoden nicht mit unseren klassischen Methoden verbinden lassen. Das Problem dabei: Bevor man aus der Menge des Möglichen etwas Vielversprechendes wählen, ausprobieren und dann vielleicht produktiv einsetzen kann, muss man sich erstmal durch die Grundlagen und Begrifflichkeiten des neuen Themengebiets kämpfen. Nicht so einfach für ein swissbib Team, dass mit Personen nicht üppig ausgestattet ist und den Laden (sprich die "grünen, orangenen oder wie auch immer farbigen Services") am Laufen halten muss.
 
 
 Helfen kann in so einer Situation manchmal Begeisterung für die Sache, Offenheit (auch von Software) und ein Netz von Personen von ausserhalb unseres Bibliothekskuchens, die man neugierig auf coole Projekte mit unseren Daten machen kann. So geschehen mit Andreas Jud, ein swissbib-Freund, der sich in einer Weiterbildung an der EPF Lausanne mit Methoden des maschinellen Lernens beschäftigt hat. Im Rahmen seines Abschlussprojekts hat er untersucht, welche der zahlreichen Methoden sich für das Clustern von bibliographischen Metadaten einsetzen lassen. In dieser Blog-Serie wird er in die ausgewählten Methoden und Ergebnisse einführen. Die komplette Projektarbeit ist als eine Serie von Jupyter Notebooks frei verfügbar.
@@ -32,10 +32,12 @@ Maschinelles Lernen basiert auf Daten. Daten von swissbib sind daher die Basis d
 Wir freuen uns, wenn Sie unsere Blogserie zum Thema Deduplizierung von bibliographischen Daten mit Methoden des Maschinellen Lernens mitverfolgen. Noch mehr freut uns die aktive Teilnahme am Themengebiet und der Diskussion darüber.
 Unter diesen links erhalten Sie den Zugriff auf die einzelnen Teile der dreiteilgen Blogserie, in der die verschiedenen Methoden sowie ihre Ergebnisse bewertet und gegenübergestellt werden.
 
-[Teil 1](/ensemblemethods)  
-Teil 2 (folgt bald)  
-Teil 3 (folgt bald)  
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
+[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)  
+Part 3: folgt bald
 
 
 Eine Anekdote zum Abschluss. Bei der Verteidigung des Projekts an der EPFL sass Andreas Prüfern gegenüber, die äusserten, dass er mit einem "grossartigen Datensatz" gearbeitet hat. Das hat selbstverständlich auch uns gefreut. Vielleicht ist dies aber auch ein Satz, der zum Nachdenken darüber anregt, ob unsere Daten nicht mehr verdient haben, als nur in ein Bibliothekssystem mit relationalem Datenbanksystem gesteckt zu werden.
+
 

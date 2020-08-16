@@ -1,7 +1,7 @@
 color: "#50bf9e"
 
 
-copyright: "Copyright &copy; 2020 Acme Corporation. All Rights Reserved."
+copyright: ""
 footer:
   - title: About
     content: content about footer
