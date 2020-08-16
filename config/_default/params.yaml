@@ -7,7 +7,7 @@ footer:
 #    content:
   - title: Recent Blog Posts
     recents: blog
-    recentCount: 7
+    recentCount: 6
   - title: Contact Us
     contact: true
 style: green
