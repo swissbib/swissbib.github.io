@@ -7,13 +7,33 @@ body {
   background-size: cover;
 }
 
+
+
+
 header {
   margin: 0 auto;
   font-size: larger;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   position: relative;
-  height: 80px;
+  min-height: 130px;
+  background-color: #50bf9e;
 }
+
+header img {
+    width: 70%;
+    height:  70px;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header {
+  min-height: 170px;
+  background-color: #50bf9e;
+}
+
+
 
 header nav {
   float: right;

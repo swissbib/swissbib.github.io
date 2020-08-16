@@ -29,6 +29,12 @@
   column-gap: 30px;
 }
 
+.header-pin {
+  min-height: 170px;
+  background-color: #50bf9e;
+}
+
+
 .news p {
   line-height: 22px;
 }

@@ -8,7 +8,7 @@ menu:
     name: Blog
     weight: 1
 ---
-The Acme Blog
+data topics blog
 ============
 
 Curated content about our teams and products.

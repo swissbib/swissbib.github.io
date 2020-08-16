@@ -12,6 +12,10 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   position: relative;
   height: 80px;
+  min-height: 170px;
+  background-color: #50bf9e;
+
+
 }
 
 header nav {

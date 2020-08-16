@@ -25,7 +25,7 @@
   <article>
     <h1> Recent Blog Posts</h1>
     <div class="posts">
-      {{ range first 3 (where (where $.Site.RegularPages ".Section" "blog" ) ".Draft" false)}}
+      {{ range first 6 (where (where $.Site.RegularPages ".Section" "blog" ) ".Draft" false)}}
       <div class="post">
         <a href="{{.Permalink}}">{{default (.File.ContentBaseName | humanize | title) .Title}}</a>
         <summary>{{.Summary}}</summary>
