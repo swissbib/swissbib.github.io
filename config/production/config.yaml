@@ -3,5 +3,3 @@ baseURL: https://swissbib.github.io
 enableRobotsTXT: true
 minify: true
 
-publishDir: docs
-relativeURLs: false
