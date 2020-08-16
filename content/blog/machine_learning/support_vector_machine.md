@@ -3,11 +3,9 @@ title: "What Humans Learn about the Data from a Support Vector Machine"
 description: "using support vector machine"
 date: 2020-08-15T16:07:50+02:00
 draft: false
-tags:
-  - unknown
-categories:
-  - general
 
+tags: [support vector machine, english, 2020]
+categories: [Machine Learning]
 ---
 
 
@@ -21,7 +19,7 @@ In the project described, a Support Vector Machine is trained with the help of s
 
 A Support Vector Machine predicts the belonging of a data point to a class according to a probability value in the range of the interval from 0 to 1. The threshold value of 0.5 is the separator between the two classes. If the Support Vector Machine calculates a probability value in the interval from 0 to 0.5, then the classifier model assigns the feature record to the class of pairs of uniques. If the classifier model calculates a probability value in the interval from 0.5 to 1, then the machine assigns the feature record to the class of pairs of duplicates. Figure 1 shows the distribution of the records for some part of swissbib training data. The green line in the figure represents the threshold of 0.5, separating the data into its two classes.
 
-<a href="/image/ml/svc_probability.opt.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/ml/svc_probability.opt.svg"/></a>
+<a href="/image/ml/svc_probability.opt.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/ml/svc_probability.png"/></a>
 -----
 Figure 1. Probability distribution of swissbib training data
 ------
@@ -34,7 +32,7 @@ Looking at figure 1, it is very interesting to observe the distance of the point
 
 Despite of the wrong predictions, figure 1 proves that the Support Vector Machine trained is a useful model for predicting the class on swissbib data. There seems to be some criteria in the data that separate the two classes. Machine Learning offers several methods of unsupervised learning to investigate and eventually confirm this assumption. As an example, the capstone project uses the method of <a href='https://en.wikipedia.org/wiki/K-means_clustering' target="_blank">k-means</a> for further analysing the data. This method tries to cluster data without any target value information, generating a number of k clusters. For the swissbib project at hand, k=2 is suggested, namely for the class of records of pairs of uniques and the other class of records of pairs of duplicates. After training a k-means model with k=2 on the training data where having removed the target values from the feature records for training the model, the points predicted by the model can be coloured subsequently according to their target values known in truth from the training data. Assigning the color of red to records of pairs of duplicates and the color of blue to records of uniques to the predictions of the trained k-means model, generates the graph of figure 2. Looking at figure 2, it shows the red points well clustered and separated from the cluster of blue points.
 
-<a href="/image/ml/kmeans_traindata.opt.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/ml/kmeans_traindata.opt.svg"/></a>
+<a href="/image/ml/kmeans_traindata.opt.svg" target="_blank"><img style=" width: 800px; height: 500px;" src="/image/ml/kmeans_traindata.png"/></a>
 --------------------------------
 Figure 2. k-means clustering on training data
 --------------------------------

@@ -8,7 +8,5 @@ menu:
     name: Blog
     weight: 1
 ---
-data topics blog
-============
 
-Curated content about our teams and products.
+

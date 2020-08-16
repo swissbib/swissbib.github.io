@@ -1,0 +1,9 @@
+main:                                       #    - Name of the menu
+  - identifier: categories                  #       - Identifier
+    name: categories                             #       - Display name (theme specific key)
+    url: /categories                             #       - Target URL
+    weight: 1                               #       - Sorting order
+  - tags: tags
+    name: tags
+    url: /tags
+    weight: 2

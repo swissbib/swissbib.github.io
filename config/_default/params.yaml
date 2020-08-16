@@ -3,8 +3,8 @@ color: "#50bf9e"
 
 copyright: ""
 footer:
-  - title: About
-    content: content about footer
+#  - title:
+#    content:
   - title: Recent Blog Posts
     recents: blog
     recentCount: 7
@@ -13,6 +13,6 @@ footer:
 style: green
 logo: image/logo.png
 logo_small: image/logo.png
-about_us: here about us
+about_us:
 recent_posts:
   enable: true

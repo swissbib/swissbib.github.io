@@ -4,10 +4,8 @@ description: "Warum maschinelles Lernen"
 date: 2020-07-18T15:50:09+02:00
 draft: false
 
-tags:
-  - unknown
-categories:
-  - general
+tags: [project information, deutsch, 2020]
+categories: [Machine Learning]
 
 ---
 
