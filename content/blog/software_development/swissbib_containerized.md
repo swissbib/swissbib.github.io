@@ -1,5 +1,6 @@
 ---
 title: "containerized environment for swissbib discovery"
+author: "Günter Hipler"
 description: "containers for libraries"
 date: 2020-08-20T8:50:09+02:00
 draft: true 
@@ -47,9 +48,11 @@ Now in short the few steps to follow the introduction by your own on your own de
 #this is just a simple wrapper script to start the docker bootstrapping, install the necessary Solr index schema and index the first documents 
 ./run.sh
 
+#to stop the environment later you can use the prepared wrapper script ./stop.sh
+
 ```    
 
-Once the script has finshed 8 containers are running and you are able to access the discoveryservice on localhost   
+Once the script has finished (for the first time because the several images have to pulled it takes around 3 minutes) 8 containers are running and you are able to access the discoveryservice on localhost   
 
 ```bash
 
@@ -83,12 +86,11 @@ http://localhost:8981/solr
 <img style=" width: 480px; height: 330px;" src="/image/sd/solr_search.png"/>  
 <img style=" width: 480px; height: 330px;" src="/image/sd/solr_cluster.png"/>  
 
-
     
 It would be nice if you could give us feedback on the possibilities to use your own discovery service in an easy way.  
 
-As already said: Today you can find container technology everywhere. It's the most important  pilar for the orchestration technolgy [Kubernetes](https://kubernetes.io/) which in turn forms the basis for the cloud platforms of almost all major providers. So running a discovery service in containers you can choose between Google, Amazon or your local university IT center for easily deploment mechanisms. The pain of the past, where you have to administrate with relativly high costs your server landscape by yourself is over. And of course you have no vendor specific lock-in.    
-In the [memobase project](https://twitter.com/memoriav_ch/status/1227133102507601920) we are using the Kubernetes technolgy provided by the IT services of the University of Basle and of course most of the implemented microservices are containerized.     
+As already said: Today you can find container technology everywhere. It's the most important  pillar for the orchestration technolgy [Kubernetes](https://kubernetes.io/) which in turn forms the basis for the cloud platforms of almost all major providers. So running a discovery service in containers you can choose between Google, Amazon or your local university IT center for straight forward deplyoment mechanisms. The pain of the past, where you have to administrate with relativly high costs your server landscape by yourself is over. And of course you have no vendor specific lock-in.    
+In the [memobase project](https://twitter.com/memoriav_ch/status/1227133102507601920) we are using the Kubernetes technology provided by the IT services of the University of Basle and of course most of the implemented microservices are containerized.       
 
-
+<a href="https://swissbib.blogspot.com/2019/01/die-personen-hinter-swissbib-les.html" target="_blank">Author: Günter Hipler</a>
 
