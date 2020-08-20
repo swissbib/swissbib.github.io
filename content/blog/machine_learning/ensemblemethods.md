@@ -1,5 +1,7 @@
 ---
 title: "A Machine Learning Approach with Ensemble Methods"
+author: "Andreas Jud"
+
 date: 2020-07-19T13:48:19+02:00
 description: "using Ensemble Methods"
 draft: false
@@ -74,4 +76,6 @@ figure 5, normed features, random forest
 
 [Einführungsartikel: warum beschäftigen wir uns mit Mehdoden des Maschinellen Lernens](/blog/machine_learning/background_de)    
 [Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)    
-[Part2: support vector machines](/blog/machine_learning/support_vector_machines)  
+[Part2: support vector machines](/blog/machine_learning/support_vector_machines)    
+
+<a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>

@@ -51,3 +51,6 @@ When talking about intelligence, the human brain is considered to be its domicil
 [Einführungsartikel: warum beschäftigen wir uns mit Mehdoden des Maschinellen Lernens](/blog/machine_learning/background_de)    
 [Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)    
 [Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+
+
+<a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>
