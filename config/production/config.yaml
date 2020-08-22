@@ -1,5 +1,5 @@
-#baseURL: https://swissbib.github.io
-baseURL: https://guenterh.github.io
+baseURL: https://swissbib.github.io
+#baseURL: https://guenterh.github.io
 
 enableRobotsTXT: true
 minify: true
