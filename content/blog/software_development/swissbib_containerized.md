@@ -1,25 +1,23 @@
 ---
-title: "containerized environment for swissbib discovery"
+title: "Containerized environment for swissbib discovery"
 author: "Günter Hipler"
 description: "containers for libraries"
-date: 2020-08-20T8:50:09+02:00
-draft: true 
-
+date: 2020-08-22T8:50:09+02:00
+draft: false 
 tags: [container]
 categories: [software_development]
-
 ---
 
 
-Every year, the apprentices of the University Library of Basel get the opportunity to get to know the tasks and projects of the IT department. A series of smaller workshops on selected topics is organised as part of these familiarisation weeks.  
+Every year, the apprentices of the University Library of Basel get the opportunity to get to know the tasks and projects of the IT department. A series of smaller workshops on selected topics is organized as part of these familiarization weeks..  
 
 One of these workshops introduced the topic of [container technologies](https://swissbib.gitlab.io/presentations/apprentices-docker-container).    
 
-The author of the workshop took the topic as an opportunity to implement the swissbib discovery service with its various components (web application, search engine, database) as services in containers. As a result now everone is [able to download the container definition scripts](https://gitlab.com/swissbib/classic/docker_vufind)  and run a first functional library discovery service by themselve on own devices. To make first steps very easy: with the bootstraping of the containers nearly 20.000 documents are indexed to play around with a complete local discovery.   
+The author of the workshop took the topic as an opportunity to implement the swissbib discovery service with its various components (web application, search engine, database) as services in containers. As a result now everone is [able to download the container definition scripts](https://gitlab.com/swissbib/classic/docker_vufind)  and run a first functional library discovery service by themselves on own devices. To make first steps very easy: with the bootstraping of the containers nearly 20.000 documents are indexed to play around with a complete local discovery.   
 
 Not only the web application is available. It is also possible to access the full-fledged distributed search engine [Solr](https://lucene.apache.org/solr/) which gives you the opportunity to get to know very closely search engine technology.  
 
-Because container technolgy (especially Docker) is ubiquitous these days in general you are able to run the containers on different operating systems  
+Because container technology (especially Docker) is ubiquitous these days in general you are able to run the containers on different operating systems  
 Linux     
 Mac or   
 Windows  
@@ -89,8 +87,10 @@ http://localhost:8981/solr
     
 It would be nice if you could give us feedback on the possibilities to use your own discovery service in an easy way.  
 
-As already said: Today you can find container technology everywhere. It's the most important  pillar for the orchestration technolgy [Kubernetes](https://kubernetes.io/) which in turn forms the basis for the cloud platforms of almost all major providers. So running a discovery service in containers you can choose between Google, Amazon or your local university IT center for straight forward deplyoment mechanisms. The pain of the past, where you have to administrate with relativly high costs your server landscape by yourself is over. And of course you have no vendor specific lock-in.    
-In the [memobase project](https://twitter.com/memoriav_ch/status/1227133102507601920) we are using the Kubernetes technology provided by the IT services of the University of Basle and of course most of the implemented microservices are containerized.       
+As already said: Today you can find container technology everywhere. It's the most important  pillar for the orchestration technology [Kubernetes](https://kubernetes.io/) which in turn forms the basis for the cloud platforms of almost all major providers. So running a discovery service in containers you can choose between Google, Amazon etc. or cooperate with your local university IT center for straight forward deplyoment mechanisms if you prefer a more local solution. The pain of the past, where you have to administrate with relatively high costs your own server landscape by yourself is over. And of course you have no vendor specific lock-in.    
+In the [memobase project](https://twitter.com/memoriav_ch/status/1227133102507601920) we are using the Kubernetes technology provided by the IT services of the University of Basle and of course most of the implemented microservices are containerized.         
+
+Another aspect I want to emphasize at the end of this article: Such decentralized and containerized environments make it very easy to make people from the information science sector more familiar with more technical issues such as search engine technology. Questions such as: why does a search engine find something or not, or what needs to be done to ensure that user-specific aspects are better taken into account in the relevance of the search result, can be explained and communicated to people much more easily through direct access to the SOLR backend. It would also be possible to have not only technical staff working directly on the search engine. Academic libraries in particular should take these possibilities more into account when considering how they will approach their tasks in the future.      
 
 <a href="https://swissbib.blogspot.com/2019/01/die-personen-hinter-swissbib-les.html" target="_blank">Author: Günter Hipler</a>
 
