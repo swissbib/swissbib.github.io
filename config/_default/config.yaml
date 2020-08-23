@@ -1,4 +1,5 @@
-baseURL: http://swissbib.hithub.io                  # Hosting location.
+baseURL: https://swissbib.github.io           # Hosting location.
+#baseURL: https://guenterh.github.io           # Hosting location.
 languageCode: de-ch                           # Locale
 title: swissbib data blog                       # Name of the website
 theme: hia                                    # Name of the theme
