@@ -44,11 +44,11 @@ Comparing figure 1 with figure 2, it is interesting to observe, that independent
 
 This blog article offers some insight into the properties of swissbib training data. This insight can be deepened analysing the underlying models and its statements. With this view, the trained machines talk to humans illustrating their mathematical background in a compacted manner. Discussing these results of different aspects helps humans to improve their understanding of the data. Humans can learn from the models, they can learn from the trained machines. This aspect of interaction between the two entities humans and machines is an important aspect, hardly discussed in the debate on Machine Learning and artificial intelligence.
 
-When talking about intelligence, the human brain is considered to be its domicile. The human brain is an incredibly powerful network of neurons and therefore, Machine Learning tries to find results with the help of networks that simulate the human brain. The next blog article will explain the results of a Neural Network.  
+When talking about intelligence, the human brain is considered to be its domicile. The human brain is an incredibly powerful network of neurons and therefore, Machine Learning tries to find results with the help of networks that simulate the human brain. The next blog article will explain the results of a Neural Network.
 
-[Einführungsartikel: warum beschäftigen wir uns mit Mehdoden des Maschinellen Lernens](/blog/machine_learning/background_de)    
-[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)    
-[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+[Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
+[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)
 
 
 <a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>
