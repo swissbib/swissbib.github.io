@@ -29,10 +29,10 @@ Machine learning is based on data. Data from swissbib is therefore the foundatio
 We would be pleased if you follow our blog series on the topic of deduplication of bibliographic data using machine learning methods. We are even more pleased about the active participation in and discussion of the topic.
 Under these links you can access the individual parts of the three-part blog series, in which the different methods and their results are evaluated and compared.
 
-[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)
-[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)
-Part 3: coming soon
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
+[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+[Part 2: support vector machine](/blog/machine_learning/support_vector_machine) 
+[Part 3: neural networks](/blog/machine_learning/neural_networks)
 
 
 A closing anecdote. While defending the project at the EPFL, Andreas sat across from examiners who said that he had worked with a "great data set". Of course, we were pleased about that, too. But perhaps this is also a sentence that makes you think about whether our data didn't deserve more than just being put into a library system with a relational database system.
