@@ -1,7 +1,7 @@
 ---
 title: "What Humans Learn about the Data from a Support Vector Machine"
 author: "Andreas Jud"
-description: "using support vector machine"
+description: "using Support Vector Machine"
 date: 2020-08-20T16:07:50+02:00
 draft: false
 
@@ -48,7 +48,7 @@ When talking about intelligence, the human brain is considered to be its domicil
 
 [Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)
 [Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)
+[Part1: ensemble methods](/blog/machine_learning/ensemblemethods)
 
 
 <a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>
