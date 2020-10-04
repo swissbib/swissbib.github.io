@@ -26,7 +26,7 @@ It is remarkable to point out the big amount of artificial neurons of the hidden
 
 
 
-Final summary :
+Final summary
 * Compare different methods described in all three blog articles.
 * Now, the data processing part has to be understood much better and deeper!
 
