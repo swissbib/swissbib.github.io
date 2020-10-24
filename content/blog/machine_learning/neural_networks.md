@@ -1,5 +1,5 @@
 ---
-title: "Artificial Neural Networks - A Copy of Human Learning?"
+title: "An Attempt to Copy Human Learning with the Help of Artificial Neural Networks"
 author: "Andreas Jud"
 description: "using neural networks"
 date: 2020-10-10T13:31:00+02:00
