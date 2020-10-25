@@ -46,9 +46,10 @@ This blog article offers some insight into the properties of swissbib training d
 
 When talking about intelligence, the human brain is considered to be its domicile. The human brain is an incredibly powerful network of neurons and therefore, Machine Learning tries to find results with the help of networks that simulate the human brain. The next blog article will explain the results of a Neural Network.
 
-[Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)
-[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part1: ensemble methods](/blog/machine_learning/ensemblemethods)
+[Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)  
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
+[Part1: ensemble methods](/blog/machine_learning/ensemblemethods)  
+[Part3: neural networks](/blog/machine_learning/neural_networks)
 
 
 <a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>

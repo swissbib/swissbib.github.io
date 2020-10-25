@@ -31,7 +31,7 @@ Under these links you can access the individual parts of the three-part blog ser
 
 [Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
 [Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
-[Part 2: support vector machine](/blog/machine_learning/support_vector_machine) 
+[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)  
 [Part 3: neural networks](/blog/machine_learning/neural_networks)
 
 

@@ -74,6 +74,7 @@ figure 5, normed features, random forest
 
 [Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)
 [Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part2: support vector machines](/blog/machine_learning/support_vector_machines)
+[Part2: support vector machines](/blog/machine_learning/support_vector_machine) 
+[Part3: neural networks](/blog/machine_learning/neural_networks)
 
 <a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>
