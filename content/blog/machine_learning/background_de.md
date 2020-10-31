@@ -30,10 +30,10 @@ Maschinelles Lernen basiert auf Daten. Daten von swissbib sind daher die Basis d
 Wir freuen uns, wenn Sie unsere Blogserie zum Thema Deduplizierung von bibliographischen Daten mit Methoden des Maschinellen Lernens mitverfolgen. Noch mehr freut uns die aktive Teilnahme am Themengebiet und der Diskussion darüber.
 Unter diesen links erhalten Sie den Zugriff auf die einzelnen Teile der dreiteilgen Blogserie, in der die verschiedenen Methoden sowie ihre Ergebnisse bewertet und gegenübergestellt werden.
 
-[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)
-[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)
-Part 3: folgt bald
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)  
+[Part1: ensemblemethods](/blog/machine_learning/ensemblemethods)  
+[Part 2: support vector machine](/blog/machine_learning/support_vector_machine)  
+[Part3: Neuronale Netzwerke](/blog/machine_learning/neural_networks)
 
 
 Eine Anekdote zum Abschluss. Bei der Verteidigung des Projekts an der EPFL sass Andreas Prüfern gegenüber, die äusserten, dass er mit einem "grossartigen Datensatz" gearbeitet hat. Das hat selbstverständlich auch uns gefreut. Vielleicht ist dies aber auch ein Satz, der zum Nachdenken darüber anregt, ob unsere Daten nicht mehr verdient haben, als nur in ein Bibliothekssystem mit relationalem Datenbanksystem gesteckt zu werden.
