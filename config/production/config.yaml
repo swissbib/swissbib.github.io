@@ -1,5 +1,6 @@
 baseURL: https://swissbib.github.io
 #baseURL: https://guenterh.github.io
+#baseURL: http://data.iwerk.ch
 
 enableRobotsTXT: true
 minify: true
