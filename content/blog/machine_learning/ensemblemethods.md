@@ -72,9 +72,9 @@ figure 5, normed features, random forest
 
  The results presented here, suggest swissbib to implement a new deduplication process with the help of a Random Forests algorithm, due its best overall performance on the training data. The project described here, implements some more models different to the Decision Tree and the Random Forests models. The results of those will be presented in some additional blog articles.
 
-[Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de)
-[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en)
-[Part2: support vector machines](/blog/machine_learning/support_vector_machine) 
-[Part3: neural networks](/blog/machine_learning/neural_networks)
+[Einführungsartikel: warum beschäftigen wir uns mit Methoden des Maschinellen Lernens](/blog/machine_learning/background_de) 
+[Introductory article: why do we deal with methods of machine learning](/blog/machine_learning/background_en) 
+[Part2: support vector machines](/blog/machine_learning/support_vector_machine)  
+[Part3: neural networks](/blog/machine_learning/neural_networks) 
 
 <a href="https://www.linkedin.com/in/andreas-jud-2a39a770/" target="_blank">Author: Andreas Jud</a>
