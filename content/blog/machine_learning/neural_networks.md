@@ -1,7 +1,7 @@
 ---
 title: "Exploring More Complex Patterns with Artificial Neural Networks"
 author: "Andreas Jud"
-description: "using neural networks"
+description: "using Neural Networks"
 date: 2020-11-11T20:00:00+02:00
 draft: false
 
