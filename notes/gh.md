@@ -15,3 +15,6 @@ The new blog post https://swissbib.github.io/blog/software_development/swissbib_
 
 
 The next part in our series about clustering bibliographic data with machine learning methods: "What Humans Learn about the Data from a Support Vector Machine" https://swissbib.github.io/blog/machine_learning/support_vector_machine - within a better readable blog environment (hopefully...)
+
+How to clone submodules
+https://www.w3docs.com/snippets/git/how-to-clone-including-submodules.html
